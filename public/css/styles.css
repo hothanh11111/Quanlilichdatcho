@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #d81717; /* Màu nền của bảng */
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50; /* Màu nền của tiêu đề bảng */
+    color: white; /* Màu chữ trong tiêu đề */
+}
+
+table td {
+    background-color: #ffffff; /* Màu nền của các ô dữ liệu */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền cho các hàng chẵn */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Màu nền khi hover vào hàng */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Đổi màu cho trạng thái Pending */
+.Pending {
+    background-color: blue; /* Màu xanh dương */
+}
+
+.Confirmed {
+    background-color: rgb(202, 16, 112);
+    color: white;
+}
+
+.Cancelled {
+    background-color: rgb(179, 189, 181);
+    color: white;
+}
+
+a {
+    color:black#e6900f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+
